@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="Behavioural Training"
+        android:textSize="27dp"
+        android:textColor="#2d436b"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:text="The training will be provided by highly trained professionals on alternative day"
+        android:textSize="18dp"
+        android:textColor="#2d436b"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="For Advanced training and show participation training the pet owner can contact us"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="#2d436b" />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="Contact Us"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
